@@ -1,11 +1,11 @@
 # **Vyacheslav Manzhela**
 
-* **Contacts**
+**Contacts**
     e-mail: slavamanzh@gmail.com
     phone: +375(29)7377640
     GitHub: https://github.com/SManzh
 
-* **About me**
+**About me**
     goal is to become competent front-end developer, take part in some large-scale projects
 
  **Skills:**
