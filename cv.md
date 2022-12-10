@@ -12,6 +12,7 @@
     knowledge of Java, Javascript, HTML, CSS, Photoshop, Figma; basic knowledge of Typescript
 
 **Code examples:**
+
     ```javascript
         function sequence(n, pattern) {
             let arrayx = [];
@@ -31,6 +32,7 @@
             }
         }
     ```
+
 **Experience:** 
     finish courses on Java, complete tasks from RS-School
 
