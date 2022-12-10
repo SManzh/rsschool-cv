@@ -1,9 +1,9 @@
 # **Vyacheslav Manzhela**
 
 **Contacts**
-    e-mail: slavamanzh@gmail.com
-    phone: +375(29)7377640
-    GitHub: https://github.com/SManzh
+    + e-mail: slavamanzh@gmail.com
+    + phone: +375(29)7377640
+    + GitHub: https://github.com/SManzh
 
 **About me**
     goal is to become competent front-end developer, take part in some large-scale projects
@@ -34,7 +34,7 @@
     ```
 
 **Experience:** 
-    finish courses on Java, complete tasks from RS-School
+    finish courses on Java, complete tasks from RS-School course
 
 **Education:** 
     finish Belarussian State Economic University faculty of International Economic Relations; take part in RS-School courses in 2019 (1st and 2nd stage)
