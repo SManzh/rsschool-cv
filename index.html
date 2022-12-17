@@ -8,22 +8,72 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <img src="./img/photo_2022-10-08_20-51-10.jpg" alt="photo" width="20%">
-    <h1>Vyacheslav Manzhela</h1>
-    <h3>Contacts:</h3>
-    <p><b>e-mail:</b><i> slavamanzh@gmail.com</i></p>
-    <p><b>phone</b><i> +375297377640</i></p>
-    <p><b>GitHub</b><i>https://github.com/SManzh</i></p>
-    <h3>About me:</h3>
-    <p>goal is to become competent front-end developer, take part in some large-scale projects</p>
-    <h3>Skills:</h3>
-    <p>knowledge of Java, Javascript, HTML, CSS, Photoshop, Figma; basic knowledge of Typescript</p>
-    <h3>Experience:</h3>
-    <p>finish courses on Java, complete tasks from RS-School course</p>
-    <h3>Education:</h3>
-    <p>finish Belarussian State Economic University faculty of International Economic Relations; take part in RS-School courses in 2019 (1st and 2nd stage)</p>
-    <h3>Foreign languages:</h3>
-    <p><i>English:</i></p><p>level B2, fluent speaking skills</p>
-    <p><i>German:</i></p><p>level A2</p>
+    <main>
+        <img src="./img/photo_2022-10-08_20-51-10.jpg" alt="myPhoto" width="20%">
+        <h1>Vyacheslav Manzhela</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Contacts:</td>
+                    <td><ul>
+                        <li><b>E-mail: </b>slavamanzh@gmail.com</li>
+                        <li>P<b>hone: </b>+375297377640</li>
+                        <li><b>GitHub: </b><a href="https://github.com/SManzh">https://github.com/SManzh</a></li>
+                    </ul>
+                </tr>
+                <tr>
+                    <td>About me:</td>
+                    <td><p>my goal is to become competent fullstack front-end developer, take part in large-scale projects</p></td>
+                </tr>
+                <tr>
+                    <td>Skills:</td>
+                    <td><p>knowledge of Java (courses in 2022 in IT School "Step"), Spring Java Framework, Javascript, HTML, CSS, 
+                        Photoshop, Figma; VCS Git, Atlassian products: Jira, Confluence</p></td>
+                </tr>
+                <tr>
+                    <td>Code examples:</td>
+                    <td><pre>
+                        <code> public class TotalPoints {
+                            public static int points(String[] games) {
+                            int sum = 0;
+                            for (int i = 0; i &lt games.length; i++) {
+                                if((games[i].charAt(0)>games[i].charAt(2))){
+                                sum = sum + 3;
+                                } else if(games[i].charAt(0) &lt games[i].charAt(2)){
+                                sum = sum;
+                                } else {
+                                sum = sum + 1;
+                                }
+                            }
+                            return sum;
+                            }
+                        }
+                        </code>  
+                    </pre></td>
+                </tr>
+                <tr>
+                    <td>Projects:</td>
+                    <td><ul>
+                        <li><a href="https://github.com/SManzh/romanCalculator">Roman Calculator</a></li>
+                        <li><a href="https://github.com/SManzh/HiLo-game-final">High-Low Game</a></li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>Education:</td>
+                    <td><p>finish Belarussian State Economic University faculty of International Economic Relations in 2012; 
+                        take part in RS-School courses in 2019 (1st and 2nd stage); IT School Step Java (Spring) courses</p></td>
+                </tr>
+                <tr>
+                    <td>Foreign languages:</td>
+                    <td><p><i>English:</i></p><p>level B2, fluent speaking skills</p>
+                        <p><i>German:</i></p><p>level A2</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p><a href="http://https://github.com/SManzh">My Github</a>
+            <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="RSSchool" width="50px"></a></p>
+    </footer>
 </body>
 </html>
