@@ -37,7 +37,7 @@
     finish courses on Java, complete tasks from RS-School course
 
 **Education:** 
-    finish Belarussian State Economic University faculty of International Economic Relations; take part in RS-School courses in 2019 (1st and 2nd stage)
+    finish Belarusian State Economic University faculty of International Economic Relations; take part in RS-School courses in 2019 (1st and 2nd stage), completed 0-stage of RS-School in 2023
 
 **Foreign languages:** 
     English: level B2, fluent speaking skills
