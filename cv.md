@@ -9,7 +9,7 @@
     goal is to become competent front-end developer, take part in some large-scale projects
 
  **Skills:**
-    knowledge of Java, Javascript, HTML, CSS, Photoshop, Figma; basic knowledge of Typescript
+    knowledge of Java, Javascript, HTML, CSS, Photoshop, Figma, Jira, Confluence; basic knowledge of Typescript; 
 
 **Code examples:**
 
