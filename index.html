@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyacheslav Manzhela CV</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="page-header">
+        <nav class="navigation">
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code examples</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Foreign languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="photo" src="./img/photo_2022-10-08_20-51-10.jpg" alt="myPhoto" width="300">
+        <h1>Vyacheslav Manzhela</h1>
+        <table>
+            <tbody>
+                <tr id="contacts">
+                    <td><h2>Contacts:</h2></td>
+                    <td><ul>
+                        <li><b>E-mail: </b>slavamanzh@gmail.com</li>
+                        <li>P<b>hone: </b>+375297377640</li>
+                        <li><b>GitHub: </b><a href="https://github.com/SManzh">https://github.com/SManzh</a></li>
+                    </ul></td>
+                </tr>
+                <tr id="about">
+                    <td><h2>About me:</h2></td>
+                    <td><p>my goal is to become competent fullstack front-end developer, take part in large-scale projects</p></td>
+                </tr>
+                <tr id="skills">
+                    <td><h2>Skills:</h2></td>
+                    <td><ul>
+                        <li>Java (courses in 2022 in IT School "Step")</li>
+                        <li>Spring Java Framework</li>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Photoshop</li>
+                        <li>Figma</li>
+                        <li>VCS Git</li>
+                        <li>Atlassian products: Jira, Confluence</li>
+                    </ul></td>
+                </tr>
+                <tr id="code">
+                    <td><h2>Code examples:</h2></td>
+                    <td><pre>
+                        <code>public class TotalPoints {
+                            public static int points(String[] games) {
+                            int sum = 0;
+                            for (int i = 0; i&lt;games.length; i++) {
+                                if((games[i].charAt(0) &gt; games[i].charAt(2))){
+                                sum = sum + 3;
+                                } else if(games[i].charAt(0)&lt;games[i].charAt(2)){
+                                sum = sum;
+                                } else {
+                                sum = sum + 1;
+                                }
+                            }
+                            return sum;
+                            }
+                        }
+                        </code>
+                    </pre></td>
+                </tr>
+                <tr id="projects">
+                    <td><h2>Projects:</h2></td>
+                    <td><ul>
+                        <li><a href="https://github.com/SManzh/romanCalculator">Roman Calculator</a></li>
+                        <li><a href="https://github.com/SManzh/HiLo-game-final">High-Low Game</a></li>
+                    </ul></td>
+                </tr>
+                <tr id="education">
+                    <td><h2>Education:</h2></td>
+                    <td><p>finished Belarusian State Economic University faculty of International Economic Relations in 2012;
+                        took part in RS-School courses in 2019 (1st and 2nd stage); IT School Step Java (Spring) courses</p></td>
+                </tr>
+                <tr id="languages">
+                    <td><h2>Foreign languages:</h2></td>
+                    <td><p><i>English: </i>level B2, fluent speaking skills</p>
+                        <p><i>German: </i>level A2</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/SManzh">My Github</a></li>
+            <li>2023</li>
+            <li><a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="RSSchool" width="60"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
