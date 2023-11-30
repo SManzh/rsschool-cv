@@ -8,12 +8,16 @@ body {
   left: 0;
   top: 0;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0;
   background-color: #BEBEBE;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.navigation ul {
+  padding-inline-start: 0;
 }
 
 .navigation li {
